@@ -2158,5 +2158,42 @@ button {
     }
 }
 
+/* =====================================
+   SVG ARROW STYLING
+===================================== */
+
+.link-arrow {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    flex-shrink: 0;
+    transition: transform 0.25s ease;
+}
+
+/* Smooth diagonal movement on hover */
+a:hover .link-arrow,
+button:hover .link-arrow {
+    transform: translate(3px, -3px);
+}
+
+/* Smaller arrows in service cards */
+.service-detail .link-arrow {
+    width: 16px;
+    height: 16px;
+}
+
+/* Larger standalone icons */
+.service-icon .link-arrow,
+.why-icon .link-arrow,
+.contact-detail-icon .link-arrow {
+    width: 24px;
+    height: 24px;
+}
+
+/* Keep Back to Top arrow moving upward */
+.back-to-top:hover .link-arrow {
+    transform: translateY(-4px);
+}
 
 
