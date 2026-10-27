@@ -2196,4 +2196,47 @@ button:hover .link-arrow {
     transform: translateY(-4px);
 }
 
+/* =====================================
+   STARTER PACKAGE PROMOTIONAL LABEL
+===================================== */
+
+.pricing-promo-label {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 7px 12px;
+
+    background: rgba(210, 173, 85, 0.12);
+    border: 1px solid rgba(210, 173, 85, 0.4);
+    border-radius: 6px;
+
+    color: #d2ad55;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+/* =====================================
+   STARTER PROMOTIONAL PRICE
+===================================== */
+
+.pricing-card:not(.pricing-featured) .pricing-price {
+    color: #d2ad55;
+    font-size: clamp(48px, 5vw, 64px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.1;
+}
+
+.pricing-card:not(.pricing-featured) .pricing-price .currency {
+    color: #d2ad55;
+}
+
+.pricing-card:not(.pricing-featured) .pricing-price .price-currency {
+    color: #d2ad55;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
 
